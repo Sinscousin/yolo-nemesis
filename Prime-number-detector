@@ -1,0 +1,34 @@
+#prime numbers
+#this program Checks if a number is prime, and returns the value of prime being true or false
+
+def main():
+    n = int(input( " enter a number and we will check if its prime"))
+
+
+# this function should determine if the number is prime and give back a true or false
+    def prime():
+    		# a math formula for detecting prime numbers that 5 or greater.
+        x = float(((n ** 2) + 17) / 12)
+        
+        # 0 and 1 are not prime or composite numbers
+        if n == 0:
+            prime = False
+        if n == 1:
+            prime = False
+            
+        # 2 and 3 are numbers that are prime but cant bedetected by my math formula
+        elif n == 2:
+            prime = True
+        elif n == 3:
+            prime = true
+        # if the number is even then its prime, else its composite
+        elif x % .5 == 0:
+            prime = True
+        else:
+            prime = False
+        
+        return prime
+        
+    print(' Is this number prime?: ', prime())    
+        
+main()
