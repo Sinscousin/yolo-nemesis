@@ -2,7 +2,7 @@
 #this program Checks if a number is prime, and returns the value of prime being true or false
 
 def main():
-    n = int(input( " enter a number and we will check if its prime"))
+    n = int(input("enter a number and we will check if its prime "))
 
 
 # this function should determine if the number is prime and give back a true or false
